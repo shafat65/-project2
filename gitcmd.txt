@@ -1,0 +1,26 @@
+step:-1 git clone https://github.com/shafat65/Project-s.git
+step:-2 git add style.css your wish add all things in one time //git add .
+step: 3 git commit -m "add new files" 
+step:-4 create a folder rmdir project2  
+step:-5 cd .. this backward cmd
+step:-6 ls is list of those folder how many file are availble on that particular foldr
+step:-7 ls -la print all hidden files
+step:8 init git this is do first time when you start 
+step:9 also create a file using terminal touch index.html
+step:10 touch readme.md this is best practise to create this files
+step:11 git commit -m "first commit"
+step:12 git remote add origin https://github.com/shafat65/-project2.git
+step:13 git remote -v
+step:14 git branch
+step:15 git commit -m "add names"
+step:16 git push origin main     
+step:17 git push -u origin main
+step:18  git commit -am  "added dot"
+step:19 git checkout -b feature   this is created a branch feature
+step:20 git checkout -b aman   this is also created new aman
+step:21 git branch feature   this is change aman to feature branch
+step:22 gid chekout main  
+step:23 git branch -d aman in this  deleted the branch is aman
+step:24 git push --set-upstream origin feature  
+step:25 git branch check the branch
+step:26 git pull origin main this is config of local system
