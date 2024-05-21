@@ -19,7 +19,7 @@ step:18  git commit -am  "added dot"
 step:19 git checkout -b feature   this is created a branch feature
 step:20 git checkout -b aman   this is also created new aman
 step:21 git branch feature   this is change aman to feature branch
-step:22 gid chekout main  
+step:22 gid chekout main  this is change this branch to another branch
 step:23 git branch -d aman in this  deleted the branch is aman
 step:24 git push --set-upstream origin feature  
 step:25 git branch check the branch
