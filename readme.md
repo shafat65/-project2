@@ -137,13 +137,13 @@ A huge thank you to **Shradha Khapra** ma'am and **Aman Dhattarwal** bhaiya from
 
 ## Author
 **Kshitij**  
-- LinkedIn: [Kshitij's Profile](https://www.linkedin.com/in/kshitijkumar-)
+- LinkedIn: [MD AMANULLAH's Profile](www.linkedin.com/in/mdamanullah8)
 - GitHub: [Kshitij's GitHub](https://github.com/BlackRabbitHere)
 
 ---
 
 ## Project Links
-- **Live Project**: [Wanderlust](https://wanderlust-j2c3.onrender.com/listings)
+- **Live Project**: [WanderLust](https://wanderlust-xd3b.onrender.com/listings)
 - **Project Repository**: [GitHub Repo](https://github.com/BlackRabbitHere/WanderLust)
 
 ---
