@@ -3,7 +3,7 @@
 **Visitor Count**
 
 
-![Visitor Count](https://profile-counter.glitch.me/BlackRabbitHere/count.svg) <!-- Add visitor count link here -->
+![Visitor Count](https://profile-counter.glitch.me/amandev8207/count.svg) <!-- Add visitor count link here -->
 
 ## Table of Contents
 - [Project Overview](#project-overview)
