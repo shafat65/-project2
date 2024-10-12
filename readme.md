@@ -1,124 +1,152 @@
-<div>
-  <h1>Wanderlust</h1>
-  <h2>The Ultimate Travel Blog 🌍✈️ for You </h2>
-</div>
+# Wanderlust - Inspired by Airbnb  
+### Full-Stack Web Application 🚀
+**Visitor Count**
 
-![Preview Image](https://github.com/krishnaacharyaa/wanderlust/assets/116620586/17ba9da6-225f-481d-87c0-5d5a010a9538)
 
-<hr>
+![Visitor Count](https://profile-counter.glitch.me/BlackRabbitHere/count.svg) <!-- Add visitor count link here -->
 
-<div>
-  <h2>🔗 Important Links</h2>
-</div>
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Technologies & Packages Used](#technologies--packages-used)
+- [Key Features](#key-features)
+- [How to Install](#how-to-install)
+- [Challenges & Solutions](#challenges--solutions)
+- [Special Thanks](#special-thanks)
+- [Author](#author)
+- [Project Links](#project-links)
+- [Thank You](#thank-you)
 
-<table border="1">
-  <tr>
-      <td><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/5ca6c472-5c73-41b2-a2df-389cc3e14881.png" alt="Discord Logo" width="50"></td>
-      <td><a href="https://discord.gg/FEKasAdCrG"> Join our project's Discord Channel here </a></td>
-  </tr>
-  <tr>
-      <td><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/ffda08c0-3c7a-46b0-b7ac-6bc374184ec7.png" alt="Figma Logo" width="50"></td>
-      <td><a href="https://www.figma.com/file/zqNcWGGKBo5Q2TwwVgR6G5/WanderLust--A-Travel-Blog-App?type=design&node-id=0%3A1&mode=design&t=c4oCG8N1Fjf7pxTt-1"> Find our project's Figma links here</a></td>
-  </tr>
-  <tr>
-      <td><img src="https://github.com/krishnaacharyaa/wanderlust/assets/133582566/47d71dd6-0390-479e-9d4e-3f077ef1a987.png" alt="YouTube Logo" width="50"></td>
-      <td><a href="https://youtu.be/ANfC1u_N_A0?feature=shared"> Find our Collaboration Video with TrainwithShubham here </a></td>
-  </tr>
-</table>
+---
 
-<hr>
+## Project Overview
+Welcome to **Wanderlust**, a comprehensive full-stack web application inspired by Airbnb. The platform allows users to list and book properties, offering features such as user authentication, reviews, and interactive maps. The project leverages **MongoDB**, **Express.js**, and **Node.js** to create a robust and scalable application.
 
-<div>
-  <h2><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/4a07b161-b8d6-4803-804a-3b0db699023e" width="35" height="35"> Goal of this project </h2>
-</div>
+---
 
-At its core, this project embodies two important aims:
+## Technologies & Packages Used
 
-1. **Start Your Open Source Journey**: It's aimed to kickstart your open-source journey. Here, you'll learn the basics of Git and get a solid grip on the MERN stack and I strongly believe that learning and building should go hand in hand.
-2. **React Mastery**: Once you've got the basics down, a whole new adventure begins of mastering React. This project covers everything, from simple form validation to advanced performance enhancements. And I've planned much more cool stuff to add in the near future if the project hits more number of contributors.
+### Backend
+- **MongoDB**: NoSQL database for efficient and flexible data storage.
+- **Express.js**: Framework for building robust web and mobile applications.
+- **Node.js**: JavaScript runtime environment for server-side development.
 
-_We want you to get the most out of this project—it's all about learning, contributing, and growing in the open-source community._
-<hr>
+### Authentication
+- **Passport.js**: Authentication middleware supporting multiple strategies.
+- **Dotenv**: Securely manages environment variables.
 
-<div>
-  <h2><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/1ee5934a-27be-4502-a7bf-e6a8c78fe5a3" width="35" height="35"> Features</h2>
-</div>
+### Image Storage
+- **Cloudinary**: Cloud-based service for managing images and videos.
 
-- **Featured Posts :** Highlight top travel stories and destinations on the homepage to showcase the best content and inspire readers with exciting travel experiences.
-- **User-Friendly Interface:** Navigate effortlessly through captivating travel content with our intuitive design.
-- **Discover By topic categories:** **Discover by Topic Categories**: Explore diverse travel experiences categorized by travel, nature, city, Adventure and Beaches..
-  
-<hr>
+### Maps
+- **Mapbox**: Provides customized interactive maps and location services.
 
-<div>
-  <h2><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/90f3930e-5a12-4a4e-8ac9-0dc7d5396adb" width="35" height="35"> Ready to Contribute?</h2>
-</div>
+### Frontend
+- **EJS**: Embedded JavaScript templates for rendering dynamic content.
 
-Kindly go through [CONTRIBUTING.md](https://github.com/krishnaacharyaa/wanderlust/blob/main/.github/CONTRIBUTING.md) to understand everything from setup to contributing guidelines.
+### Session Management
+- **Connect Flash**: Flash messaging middleware for Express.js.
+- **Connect Mongo**: MongoDB session store for managing user sessions.
+- **Cookie Parser**: Parses cookies attached to client requests.
 
-If you would like to contribute to the project, please follow our contribution guidelines.
+### Validation
+- **Joi**: Data validation library.
 
-<hr>
-<!-- Open Source Programs -->
-  <div>
-    <h2><img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Flexed%20Biceps.png?raw=true" width="35" height="35" > Open Source Programs</h2>
-  </div>
+### Object Modeling
+- **Mongoose**: ODM for MongoDB and Node.js for easier data manipulation.
 
-  <table border="1" cellpadding="10">
-        <tr>
-            <td rowspan="2">
-                <img src="https://github.com/Meetjain1/wanderlust/assets/133582566/21b2bc42-bdd5-487a-a083-1b262c2f6d9b" alt="GSSOC Logo" width="100" height="55">
-            </td>
-            <td>
-                <strong>GSSOC 2024</strong>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                This project is part of GirlScript Summer of Code. We warmly welcome contributions from the community to help elevate Wanderlust.
-            </td>
-        </tr>
-    </table>
+### File Uploads
+- **Multer**: Middleware for handling multipart/form-data, primarily used for file uploads.
 
-<hr>
+### Social Authentication
+- **Passport Local**: Local authentication strategy.
+- **Passport Facebook**: Facebook login integration.
+- **Passport Google OAuth20**: Google OAuth 2.0 authentication.
+- **Passport Local Mongoose**: Simplifies integration of Mongoose with Passport for user authentication.
 
-<!-- Code of conduct -->
-<div>
-<h2><img src = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="35" height="35"> Code of Conduct</h2>
-</div>
+---
 
-Please note that this project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+## Key Features
+- **User Authentication**: Login, Logout, and User Profile Section
+- **CRUD Operations**: Create, Read, Update, and Delete Listings
+- **Review System**: Users can add and delete reviews
+- **Account Management**: Update user account details and password
+- **Data Security**: Password hashing and encryption for secure data storage
+- **Interactive Maps**: Utilize Mapbox to visualize property locations
+- **Social Logins**: Login using Google or Facebook, along with traditional email login
 
-<hr>
+---
 
-<!-- License -->
-<div>
-<h2><img src = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" width="35" height="35"> License</h2>
-</div>
+## How to Install
 
-This project is licensed under the [MIT License](./LICENSE).
+To run this project locally, follow these steps:
 
-<hr>
+1. **Clone the Repository**:
 
-<div>
-  <h2><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/af38ec84-7387-4af7-af85-8f408a4654e9" width="35" height="35"> Show Your Support</h2>
-</div>
+    ```bash
+    git clone https://github.com/BlackRabbitHere/wanderlust.git
+    cd wanderlust
+    ```
 
-If you find this project interesting and inspiring, please consider showing your support by starring it on GitHub! Your star goes a long way in helping me reach more developers and encourages me to keep enhancing the project.
+2. **Install Dependencies**:
 
-Feel free to get in touch with me for any further queries or support, happy to help :)
+    ```bash
+    npm install
+    ```
 
-<hr>
+3. **Set Up Environment Variables**:
 
- <!-- Cotributors -->
-<div>
-  <h2><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/20610b38-b287-4bf0-8f28-932b9c76163d" width="40" height="40"> Contributors</h2>
-</div>
+    Create a `.env` file in the root directory and configure the following variables:
 
-We extend our heartfelt gratitude for your invaluable contribution to our project! Your efforts play a pivotal role in elevating Wanderlust to greater heights. 😊
+    ```bash
+    # Cloudinary
+    CLOUD_NAME=your_cloudinary_name
+    CLOUD_API_KEY=your_cloudinary_api_key
+    CLOUD_API_SECRET=your_cloudinary_secret
 
-<div>
-<a href="https://github.com/krishnaacharyaa/wanderlust/graphs/contributors">
-  <img width="90%" src="https://contrib.rocks/image?repo=krishnaacharyaa/wanderlust" />
-</a>
-</div>
+    # Mapbox
+    MAP_TOKEN=your_mapbox_token
+
+    # MongoDB Atlas
+    ATLASDB_URL=your_mongodb_atlas_url
+
+    # Session Secret
+    SECRET=your_random_secret_key
+    ```
+
+4. **Run the Application**:
+
+    ```bash
+    node app.js
+    ```
+
+5. **Open in Your Browser**:
+
+    Visit [http://localhost:8080/listings](http://localhost:8080/listings) to explore the application locally.
+
+---
+
+## Challenges & Solutions
+During the development of **Wanderlust**, several challenges arose, particularly with handling data efficiently and scaling the backend. Through research and implementation of optimized solutions, these issues were resolved, ensuring the application's scalability and performance.
+
+---
+
+## Special Thanks
+A huge thank you to **Shradha Khapra** ma'am and **Aman Dhattarwal** bhaiya from **Apna College**. Their mentorship and support have been instrumental in the success of this project.
+
+---
+
+## Author
+**Kshitij**  
+- LinkedIn: [Kshitij's Profile](https://www.linkedin.com/in/kshitijkumar-)
+- GitHub: [Kshitij's GitHub](https://github.com/BlackRabbitHere)
+
+---
+
+## Project Links
+- **Live Project**: [Wanderlust](https://wanderlust-j2c3.onrender.com/listings)
+- **Project Repository**: [GitHub Repo](https://github.com/BlackRabbitHere/WanderLust)
+
+---
+
+## Thank You
+Thank you for exploring **Wanderlust**! I would love to hear your feedback or suggestions. Feel free to share your thoughts! 😊
